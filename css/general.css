@@ -8,18 +8,12 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-main{
-  height: calc(100vh - 100px);
+ul{
+  list-style: none;
 }
 
-main .container.sinistro{
-  width: 250px;
+a{
+  text-decoration: none;
+  color: #84868a;
 }
 
-main .container.destro{
-  width: calc(100vw - 250px);
-}
-
-footer{
-  height: 100px;
-}

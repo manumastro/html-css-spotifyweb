@@ -1,0 +1,60 @@
+/* MAIN */
+main{
+  height: calc(100vh - 100px);
+}
+
+/* MAIN CONTAINER SINISTRO */
+main .container-sinistro{
+  width: 250px;
+}
+/* /MAIN CONTAINER SINISTRO */
+
+
+/* MAIN CONTAINER DESTRO */
+main .container-destro{
+  width: calc(100vw - 250px);
+  overflow-y: auto;
+}
+
+/* MAIN .CONTAINER .DESTRO .FIXED */
+#fixed{
+  position: fixed;
+  height: 100px;
+  width: 100%;
+}
+/* /MAIN .CONTAINER .DESTRO .FIXED */
+
+
+
+/* MAIN .CONTAINER .DESTRO .MAIN-PLAYER */
+#main-player{
+  padding-top: 100px;
+}
+#main-player #categories nav ul li{
+  padding: 10px 10px;
+}
+#main-player #recently-played h2{
+  padding: 10px 0;
+  color: white;
+}
+#main-player #recently-played .container-copertine{
+  flex-wrap: wrap;
+}
+#main-player #recently-played .container-copertine .copertina{
+  width: calc(100% / 6);
+  padding-right: 10px;
+}
+#main-player #recently-played .container-copertine .copertina img{
+  width: 100%;
+} 
+/* /MAIN .CONTAINER .DESTRO .MAIN-PLAYER */
+
+/* /MAIN CONTAINER DESTRO */
+/* /MAIN */
+
+
+/* FOOTER */
+footer{
+  height: 100px;
+}
+/* FOOTER */
