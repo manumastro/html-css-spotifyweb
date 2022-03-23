@@ -4,6 +4,7 @@
   }
   #main-player #recently-played .container-copertine .copertina{
     width: calc(100% / 4);
+    padding-bottom: 40px;
   }
   #main-player #creato-per .container-copertine{
     flex-wrap: wrap;
