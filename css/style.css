@@ -191,6 +191,84 @@ main .container-destro{
 
 /* FOOTER */
 footer{
+  justify-content: space-between;
+  align-items: center;
   height: 100px;
+  background-color: #282828;
+}
+footer .box{
+  margin: 0 15px;
+}
+footer .box.footer-left{
+  align-items: center;
+  width: 200px;
+}
+footer .box.footer-left img{
+  padding-right: 12px;
+  cursor: pointer;
+}
+footer .box.footer-left .track-image{
+  width: 40%;
+}
+footer .box.footer-left .track-image img{
+  width: 100%;
+}
+footer .box.footer-left .track-description{
+  flex-direction: column;
+  padding-right: 20px;
+}
+footer .box.footer-left .track-description #track-name{
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+footer .box.footer-left .track-description #track-artist{
+  color: grey;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+footer .box.footer-left i{
+  color: grey;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+footer .box.footer-center{
+  flex-direction: column;
+}
+footer .box.footer-center .play-control{
+  align-items: center ;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+footer .box.footer-center .play-control i{
+  cursor: pointer;
+  padding: 0px 15px;
+}
+footer .box.footer-center .play-control .fa-circle-play{
+  font-size: 2rem;
+}
+footer .box.footer-center .track-bar{
+  align-items: center;
+}
+footer .box.footer-center .track-bar span{
+  color: white;
+  font-size: 0.7rem;
+  font-weight: bold;
+  line-height: 19px
+}
+
+footer .box.footer-center .track-bar .bar{
+  border: 0px solid grey;
+  border-radius: 10px;
+  width: 500px;
+  margin: 0 40px;
+  background-color: grey;
+}
+footer .box.footer-center .track-bar .bar .white-bar{
+  border: 2px solid white;
+  width: 100px;
 }
 /* FOOTER */
