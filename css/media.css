@@ -18,4 +18,12 @@
   #main-player #popular-artists .container-copertine .copertina{
     width: calc(100% / 4);
   }
+  #main-player #categories nav{
+    width: 80%;
+    margin: 0 auto;
+  }
+  #main-player #categories nav ul{
+    flex-wrap:wrap;
+    justify-content: center;
+  }
 }
