@@ -32,9 +32,32 @@ main .container-sinistro{
   font-size: 0.8rem;
 }
 .container-sinistro #lateral .home-cerca-librerie-playlist .home,
-.container-sinistro #lateral .home-cerca-librerie-playlist .cerca{
+.container-sinistro #lateral .home-cerca-librerie-playlist .cerca,
+.container-sinistro #lateral .home-cerca-librerie-playlist .libreria{
   padding-bottom: 20px;
 } 
+.container-sinistro #lateral .home-cerca-librerie-playlist .playlist{
+  flex-direction: column;
+}
+.container-sinistro #lateral .home-cerca-librerie-playlist .playlist #playlist-span{
+  color: white;
+}
+.container-sinistro #lateral .home-cerca-librerie-playlist .playlist .crea-playlist a.d-flex{
+  align-items: center;
+  padding: 15px 0;
+}
+.container-sinistro #lateral .home-cerca-librerie-playlist .playlist .crea-playlist i{
+  padding-right: 35px;
+  font-size: 2.5rem;
+  color: #a3a3a3;
+}
+.container-sinistro #lateral .home-cerca-librerie-playlist .playlist .crea-playlist span{
+  color: #a3a3a3;
+}
+.container-sinistro #lateral .home-cerca-librerie-playlist .playlist .nome-playlist{
+  flex-direction: column;
+  line-height: 36px
+}
 .container-sinistro #lateral .profile{
   height: 100px;
 }
