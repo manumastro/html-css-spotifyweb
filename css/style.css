@@ -17,8 +17,8 @@ main .container-sinistro{
   padding: 20px 15px;
 }
 .container-sinistro #lateral .home-cerca-librerie-playlist{
-  height: calc(100% - 200px);
-  padding: 0 15px;
+  height: calc(100% - 170px);
+  padding: 0 20px;
 }
 .container-sinistro #lateral .home-cerca-librerie-playlist i{
   width: 20px;
@@ -38,13 +38,14 @@ main .container-sinistro{
 } 
 .container-sinistro #lateral .home-cerca-librerie-playlist .playlist{
   flex-direction: column;
+  margin-top: 10px;
 }
 .container-sinistro #lateral .home-cerca-librerie-playlist .playlist #playlist-span{
   color: white;
 }
 .container-sinistro #lateral .home-cerca-librerie-playlist .playlist .crea-playlist a.d-flex{
   align-items: center;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .container-sinistro #lateral .home-cerca-librerie-playlist .playlist .crea-playlist i{
   padding-right: 35px;
@@ -59,9 +60,33 @@ main .container-sinistro{
   line-height: 36px
 }
 .container-sinistro #lateral .profile{
-  height: 100px;
+  height: 70px;
+  padding: 0 20px;
+  color: #a3a3a3;
 }
-
+.container-sinistro #lateral .profile i{
+  margin-right: 6px;
+  font-size: 0.9rem;
+}
+.container-sinistro #lateral .profile #installa span{
+  font-size: 0.8rem;
+}
+.container-sinistro #lateral .profile #border{
+  margin-top: 10px;
+  border: 1px solid grey;
+}
+.container-sinistro #lateral .profile #profile-name{
+  padding-top: 10px;
+}
+.container-sinistro #lateral .profile #profile-name i{
+  font-size: 1.5rem;
+}
+.container-sinistro #lateral .profile #profile-name span{
+  color: white;
+  font-weight: bold;
+  font-size: 0.8rem;
+  line-height: 24px;
+}
 /* /MAIN CONTAINER SINISTRO */
 
 
