@@ -1,0 +1,20 @@
+@media screen and (max-width: 1000px) {
+  #main-player #recently-played .container-copertine{
+    flex-wrap: wrap;
+  }
+  #main-player #recently-played .container-copertine .copertina{
+    width: calc(100% / 4);
+  }
+  #main-player #creato-per .container-copertine{
+    flex-wrap: wrap;
+  }
+  #main-player #creato-per .container-copertine .copertina{
+    width: calc(100% / 4);
+  }
+  #main-player #popular-artists .container-copertine{
+    flex-wrap: wrap;
+  }
+  #main-player #popular-artists .container-copertine .copertina{
+    width: calc(100% / 4);
+  }
+}

@@ -5,14 +5,14 @@ main{
 
 /* MAIN CONTAINER SINISTRO */
 main .container-sinistro{
-  width: 250px;
+  width: 200px;
 }
 /* /MAIN CONTAINER SINISTRO */
 
 
 /* MAIN CONTAINER DESTRO */
 main .container-destro{
-  width: calc(100vw - 250px);
+  width: calc(100vw - 200px);
   overflow-y: auto;
 }
 
@@ -33,20 +33,48 @@ main .container-destro{
 #main-player #categories nav ul li{
   padding: 10px 10px;
 }
-#main-player #recently-played h2{
+#main-player h2{
   padding: 10px 0;
   color: white;
 }
-#main-player #recently-played .container-copertine{
-  flex-wrap: wrap;
+#main-player span{
+  display: block;
+  color: white;
+  text-align: center;
 }
-#main-player #recently-played .container-copertine .copertina{
+#main-player span.name{
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 5px 0;
+}
+#main-player span.artist-description{
+  color: #818488;
+  font-size: 0.8rem
+}
+#main-player p{
+  color: white;
+}
+#recently-played{
+  padding-bottom: 40px;
+}
+.container-copertine{
+  padding: 10px 0;
+}
+.copertina{
   width: calc(100% / 6);
-  padding-right: 10px;
+  padding-right: 1%;
 }
-#main-player #recently-played .container-copertine .copertina img{
+.container-copertine .copertina img{
   width: 100%;
 } 
+#creato-per span.artist-description, #popular-artists span.artist-description{
+  text-align:left;
+  padding-bottom: 20px;
+}
+
+#popular-artists .container-copertine .copertina img{
+  border-radius: 50%;
+}
 /* /MAIN .CONTAINER .DESTRO .MAIN-PLAYER */
 
 /* /MAIN CONTAINER DESTRO */
