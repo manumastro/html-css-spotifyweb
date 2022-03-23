@@ -208,7 +208,7 @@ footer .box.footer-left img{
   cursor: pointer;
 }
 footer .box.footer-left .track-image{
-  width: 40%;
+  width: 70px;
 }
 footer .box.footer-left .track-image img{
   width: 100%;
@@ -260,8 +260,7 @@ footer .box.footer-center .track-bar span{
   line-height: 19px
 }
 
-footer .box.footer-center .track-bar .bar{
-  border: 0px solid grey;
+.box.footer-center .track-bar .bar{
   border-radius: 10px;
   width: 500px;
   margin: 0 40px;
@@ -270,5 +269,25 @@ footer .box.footer-center .track-bar .bar{
 footer .box.footer-center .track-bar .bar .white-bar{
   border: 2px solid white;
   width: 100px;
+}
+footer .box.footer-right{
+  align-items: center;
+}
+footer .box.footer-right i{
+  color: white;
+  padding-right: 20px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+footer .box.footer-right .volume-bar{
+  border-radius: 10px;
+  width: 140px;
+  background-color: grey;
+  height: 5px;
+  cursor: pointer;
+}
+footer .box.footer-right .volume-bar .white-bar{
+  border: 2px solid white;
+  width: 40px;
 }
 /* FOOTER */

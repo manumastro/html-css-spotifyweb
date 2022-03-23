@@ -26,4 +26,8 @@
     flex-wrap:wrap;
     justify-content: center;
   }
+  footer .box.footer-center .track-bar .bar{
+    width: 250px;
+    margin: 0 15px;
+  }
 }
