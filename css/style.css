@@ -20,13 +20,32 @@ main .container-destro{
 #fixed{
   position: fixed;
   height: 100px;
-  width: 100%;
+  width: calc(100% - 200px);
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#fixed button{
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border-style: none;
+  border: 1px solid white;
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin-right: 1%;
+  cursor: pointer;
 }
 /* /MAIN .CONTAINER .DESTRO .FIXED */
 
 
 
 /* MAIN .CONTAINER .DESTRO .MAIN-PLAYER */
+.container-destro{
+  background-color: #141922;
+}
 #main-player{
   padding-top: 100px;
 }
@@ -67,6 +86,9 @@ main .container-destro{
 .container-copertine .copertina img{
   width: 100%;
 } 
+#creato-per{
+  padding-bottom: 20px;
+}
 #creato-per span.artist-description, #popular-artists span.artist-description{
   text-align:left;
   padding-bottom: 20px;
