@@ -34,6 +34,9 @@ main .container-sinistro{
   font-weight: bold;
   font-size: 0.8rem;
 }
+.container-sinistro #lateral .home-cerca-librerie-playlist span:hover{
+  color: white;
+}
 .container-sinistro #lateral .home-cerca-librerie-playlist .home,
 .container-sinistro #lateral .home-cerca-librerie-playlist .cerca,
 .container-sinistro #lateral .home-cerca-librerie-playlist .libreria{
@@ -55,13 +58,20 @@ main .container-sinistro{
   font-size: 2.5rem;
   color: #a3a3a3;
 }
+.container-sinistro #lateral .home-cerca-librerie-playlist .playlist .crea-playlist i:hover{
+  color: white;
+}
 .container-sinistro #lateral .home-cerca-librerie-playlist .playlist .crea-playlist span{
   color: #a3a3a3;
+}
+.container-sinistro #lateral .home-cerca-librerie-playlist .playlist .crea-playlist span:hover{
+  color: white;
 }
 .container-sinistro #lateral .home-cerca-librerie-playlist .playlist .nome-playlist{
   flex-direction: column;
   line-height: 36px
 }
+
 .container-sinistro #lateral .profile{
   height: 70px;
   padding: 0 20px;
@@ -73,6 +83,9 @@ main .container-sinistro{
 }
 .container-sinistro #lateral .profile #installa span{
   font-size: 0.8rem;
+}
+.container-sinistro #lateral .profile #installa span:hover{
+  color: white;
 }
 .container-sinistro #lateral .profile #border{
   margin-top: 10px;
@@ -120,6 +133,10 @@ main .container-destro{
   border-radius: 20px;
   margin-right: 20px;
   cursor: pointer;
+  font-weight: bold
+}
+#fixed button:hover{
+  padding: 12px 45px;
 }
 /* /MAIN .CONTAINER .DESTRO .FIXED */
 
@@ -140,6 +157,23 @@ main .container-destro{
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 600;
+}
+#main-player #categories nav ul li a.border{
+  display: inline-block;
+  margin-bottom: 4px;
+  padding-top: 6px;
+}
+
+#main-player #categories nav ul li .green-border{
+  height: 3px;
+  width: 40%;
+  margin-left: 25px;
+  border-radius: 10px;
+  background-color: #73a72a;
+}
+
+#main-player #categories nav ul li a:hover{
+  color: white;
 }
 #main-player h2{
   padding: 10px 0;
@@ -219,18 +253,28 @@ footer .box.footer-left .track-description #track-name{
   color: white;
   font-size: 0.8rem;
   font-weight: bold;
+  cursor: pointer;
 }
 footer .box.footer-left .track-description #track-artist{
   color: grey;
   font-size: 0.7rem;
   font-weight: bold;
+  cursor: pointer;
+}
+footer .box.footer-left .track-description #track-artist:hover{
+  color: white;
+  text-decoration: underline;
 }
 footer .box.footer-left .like-save{
   align-items: center;
-  color: white;
+  color: grey;
+  cursor: pointer;
 }
 footer .box.footer-left .like-save i{
   margin-right: 10px;
+}
+footer .box.footer-left .like-save i:hover{
+  color: white;
 }
 footer .box.footer-center{
   flex-direction: column;

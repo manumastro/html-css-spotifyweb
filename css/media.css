@@ -43,6 +43,7 @@
   }
   footer .box.footer-left .like-save.d-flex{
     flex-direction: column;
+    justify-content: center;
   }
   footer .box.footer-left .like-save.d-flex i{
     margin-bottom: 5px;

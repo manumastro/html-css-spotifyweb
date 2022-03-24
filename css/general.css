@@ -21,7 +21,15 @@ a{
 .copertina{
   cursor: pointer;
 }
+.copertina:hover{
+  opacity: 0.5;
+}
 
+/* .copertina:hover i{
+  display: inline-block;
+  color: white;
+  font-size: 75px;
+} */
 .nascosto img{
   display: none;
 }
