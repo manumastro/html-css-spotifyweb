@@ -167,7 +167,7 @@ main .container-destro{
 }
 .copertina{
   width: calc(100% / 6);
-  padding-right: 1%;
+  padding: 0 5px;
 }
 .container-copertine .copertina img{
   width: 100%;
@@ -194,6 +194,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  overflow-x: hidden;
   background-color: #282828;
 }
 footer .box{
@@ -262,8 +263,8 @@ footer .box.footer-center .track-bar span{
 
 .box.footer-center .track-bar .bar{
   border-radius: 10px;
-  width: 500px;
-  margin: 0 40px;
+  width: 25vw;
+  margin: 0 25px;
   background-color: grey;
 }
 footer .box.footer-center .track-bar .bar .white-bar{
@@ -273,18 +274,19 @@ footer .box.footer-center .track-bar .bar .white-bar{
 footer .box.footer-right{
   align-items: center;
 }
-footer .box.footer-right i{
+footer .footer-right i{
   color: white;
-  padding-right: 20px;
   font-size: 0.8rem;
   cursor: pointer;
+  width: 1vw;
+  margin-right: 10px;
 }
 footer .box.footer-right .volume-bar{
   border-radius: 10px;
-  width: 140px;
+  width: 120px;
   background-color: grey;
-  height: 5px;
   cursor: pointer;
+  margin-left: 5px;
 }
 footer .box.footer-right .volume-bar .white-bar{
   border: 2px solid white;

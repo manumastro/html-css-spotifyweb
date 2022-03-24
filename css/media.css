@@ -1,4 +1,4 @@
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
   #main-player #recently-played .container-copertine{
     flex-wrap: wrap;
   }
@@ -27,7 +27,29 @@
     justify-content: center;
   }
   footer .box.footer-center .track-bar .bar{
-    width: 250px;
-    margin: 0 15px;
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 779px){
+  #main-player #recently-played .container-copertine .copertina{
+    width: calc(100% / 2);
+  }
+  #main-player #creato-per .container-copertine .copertina{
+    width: calc(100% / 2);
+  }
+  #main-player #popular-artists .container-copertine .copertina{
+    width: calc(100% / 2);
+  }
+  footer .box.footer-left .like-save.d-flex{
+    flex-direction: column;
+  }
+  footer .box.footer-left .like-save.d-flex i{
+    margin-bottom: 5px;
+  }
+  footer .box.box.footer-left,
+  footer .box.footer-center,
+  footer .box.footer-right{
+    margin: 5px;
   }
 }
