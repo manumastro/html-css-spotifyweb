@@ -47,9 +47,65 @@
   footer .box.footer-left .like-save.d-flex i{
     margin-bottom: 5px;
   }
-  footer .box.box.footer-left,
+  footer .box.footer-left,
   footer .box.footer-center,
   footer .box.footer-right{
     margin: 5px;
+  }
+}
+
+@media screen and (max-width: 629px){
+  main .container-sinistro #lateral .logo img,
+  main .container-sinistro #lateral .home-cerca-librerie-playlist .playlist .nome-playlist,
+  main .container-sinistro #lateral .home-cerca-librerie-playlist .playlist,
+  main .container-sinistro #lateral .home-cerca-librerie-playlist .home span,
+  main .container-sinistro #lateral .home-cerca-librerie-playlist .cerca span,
+  main .container-sinistro #lateral .home-cerca-librerie-playlist .libreria span,
+  main .container-sinistro #lateral .profile a span,
+  main .container-sinistro #lateral .profile #border
+  {
+    display: none;
+  }
+
+  main .container-sinistro #lateral .logo{
+    height: 55px;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  
+  main .container-sinistro #lateral .logo a.nascosto img{
+    display: inline-block;
+    width: 58%;
+    margin-top: 5px;
+  }
+  main .container-sinistro #lateral .home-cerca-librerie-playlist i.fa-house{
+    margin-right: 3px;
+  }
+  main .container-sinistro #lateral .home-cerca-librerie-playlist .home,
+  main .container-sinistro #lateral .home-cerca-librerie-playlist .cerca,
+  main .container-sinistro #lateral .home-cerca-librerie-playlist .libreria{
+    padding-bottom: 10px;
+  }
+  main .container-sinistro.responsive{
+    width: 55px;
+  }
+  main .container-destro.responsive{
+    width: calc(100vw - 55px);
+  }
+  main .container-destro.responsive #fixed{
+    width: calc(100vw - 55px);
+  }
+  main .container-sinistro #lateral .home-cerca-librerie-playlist,
+  main .container-sinistro #lateral .profile{
+    padding: 0;
+  }
+  main .container-sinistro #lateral .home-cerca-librerie-playlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .container-sinistro #lateral .home-cerca-librerie-playlist i{
+    margin: 0;
   }
 }

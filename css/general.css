@@ -20,3 +20,7 @@ a{
 .copertina{
   cursor: pointer;
 }
+
+.nascosto img{
+  display: none;
+}
