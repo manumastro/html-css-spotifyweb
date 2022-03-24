@@ -104,8 +104,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: calc(100% - 125px);
   }
   main .container-sinistro #lateral .home-cerca-librerie-playlist i{
     margin: 0;
   }
+  main .container-sinistro #lateral .profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
 }
